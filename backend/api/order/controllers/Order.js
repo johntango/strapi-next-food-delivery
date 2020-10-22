@@ -4,6 +4,7 @@
  *
  * @description: A set of functions called "actions" for managing `Order`.
  */
+// note that this needs to be a "private" key from STRIPE
 const stripe = require("stripe")(
   "sk_test_51HaLhVGgpfLkdZwmmtP4YP0CYjzHEgzhNehfIm8m7cvzKnmek68toarKoYXMsutgu4pkbegopWRG6v9NaCkq65em00Elwbb2Wi"
 );
